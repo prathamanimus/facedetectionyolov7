@@ -1,0 +1,13 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 1
+names: ['Face']
+
+roboflow:
+  workspace: major-project-shpmm
+  project: face-pavwu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/major-project-shpmm/face-pavwu/dataset/1
